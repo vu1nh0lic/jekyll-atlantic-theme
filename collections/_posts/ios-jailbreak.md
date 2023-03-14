@@ -26,7 +26,7 @@ unc0ver jailbreak for iOS 11.0–12.4. You can check to see if your device can b
 
 ## JailBreaking —
 
-Jailbreaking is generally are of two types. Jailbreaking totally depends upon the iOS version your device is using.
+Jailbreaking is generally are of two types. Jailbreaking totally depends upon the iOS version your device is using. 
 
 # 1. Tethered
 
