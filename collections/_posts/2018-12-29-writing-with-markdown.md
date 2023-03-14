@@ -3,7 +3,7 @@ layout: post
 title: "Writing With Markdown"
 date: 2018-12-29T10:26:40+10:00
 authors: ["Sagssse Kirkwe", "Mike Vance"]
-categories: ["Development", "Javascript", "Web Design"]
+categories: ["Developments", "Javascript", "Web Design"]
 tags: ["Writing"]
 description: Learn how to use Markdown to write blog posts. Understand front-matter and how it is used in templates.
 thumbnail: "assets/images/unsplash-CTivHyiTbFw-640x360.jpeg"
