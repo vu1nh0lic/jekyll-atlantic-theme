@@ -1,7 +1,7 @@
 ---
 layout: home
-title: Jekyll Atlantic Theme
-heading: <em>Jekyll Tailwind</em> Starter Blog
-description: Atlantic is a beautiful Tailwind CSS theme for Jekyll. It shows best practices for using Tailwind with Jekyll.
+title: ehvulnholic Blog
+heading: <em>ehvulnholic</em> Blog
+description: ehvulnholic is a cyber-security blog ! We help organisations build and manage more secure, resilient and compliant cloud native applications & online assets.
 
 ---
