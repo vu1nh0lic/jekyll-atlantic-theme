@@ -10,6 +10,7 @@ description: How to set up your iOS Testing Lab
 thumbnail: "assets/images/unsplash-CTivHyiTbFw-640x360.jpeg"
 image: "https://source.unsplash.com/CTivHyiTbFw/1600x900"
 ---
+Hello Everyone — Long time no see!
 
 It’s been a long time since I published my last blog so I’ve decided to come up with a good topic since there are many questions being asked around Jailbreak and how to bypass SSL pinning. This version of the blog I’ll explain how to jailbreak iOS 12.4 and bypass SSL pinning. This will give you a decent idea on how to set up your iOS testing lab.
 
