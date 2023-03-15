@@ -54,7 +54,7 @@ Cydia Impactor is a GUI tool for working with mobile devices. It has features al
 
 Downloading & Installing Cydia Impactor. (Developers Account Required)
 
-###Cydia Impactor
+### Cydia Impactor
 
 Note: Cydia requires your Apple ID and password so using a newly created Apple ID is highly recommended.
 
@@ -135,16 +135,16 @@ or direct download the version 0.13 from:
 
 https://github.com/nabla-c0d3/ssl-kill-switch2/releases/download/0.13/com.nablac0d3.sslkillswitch2_0.13.deb
 
-Installation
+## Installation
 The following dependencies should be installed using Cydia:
 
-Debian Packager
+* Debian Packager
 
-Cydia Substrate
+* Cydia Substrate
 
-PreferenceLoader
+* PreferenceLoader
 
-Install MTerminal form Cydia
+<b>Install MTerminal form Cydia</b>
 
 
 Open the MTerminal
