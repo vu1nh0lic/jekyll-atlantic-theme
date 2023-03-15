@@ -1,12 +1,11 @@
 ---
 layout: post
-title: "[iOS Application Security] Jailbreak 12.4 and SSL pinning bypass <br> <br> | How to set up your iOS Testing Lab"
+title: "[iOS Application Security] Jailbreak 12.4 and SSL pinning bypass <br> <br>  How to set up your iOS Testing Lab"
 date: 2018-12-29T10:26:40+10:00
 authors: ["Yogendra Jaiswal"]
 categories:
   ["ios Hacking", "iOS Pentest", "Jailbreak", "Mobile Application Testing"]
 tags: ["Cyber Security Blog"]
-description: How to set up your iOS Testing Lab
 thumbnail: "/assets/images/blog_images/ios_12.png"
 image: "/assets/images/blog_images/ios_testing.png"
 ---
