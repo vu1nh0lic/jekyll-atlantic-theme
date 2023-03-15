@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "[iOS Application Security] Jailbreaks 12.4 and SSL pinning bypass | How to set up your iOS Testing Lab"
+title: "[iOS Application Security] Jailbreak 12.4 and SSL pinning bypass | How to set up your iOS Testing Lab"
 date: 2018-12-29T10:26:40+10:00
 authors: ["Yogendra Jaiswal"]
 categories:
   ["ios Hacking", "iOS Pentest", "Jailbreak", "Mobile Application Testing"]
 tags: ["Cyber Security Blog"]
 description: How to set up your iOS Testing Lab
-thumbnail: "assets/images/unsplash-CTivHyiTbFw-640x360.jpeg"
-image: "https://source.unsplash.com/CTivHyiTbFw/1600x900"
+thumbnail: "/assets/images/blog_images/ios_12.png"
+
 ---
 Hello Everyone — Long time no see!
 
@@ -26,23 +26,23 @@ Unc0ver v3.5.0 can jailbreak iOS 12.4 on A7-A11 devices, but A12(X) devices are 
 <a href="https://www.idownloadblog.com/2019/08/18/unc0ver-jailbreak-ios-12-4/"> unc0ver Jailbreak iOS 12.4 Link </a>
 
 
-unc0ver jailbreak for iOS 11.0–12.4. You can check to see if your device can be jailbroken using the following website: https://canijailbreak.com
+unc0ver jailbreak for iOS 11.0–12.4. You can check to see if your device can be jailbroken using the following website: [https://canijailbreak.com](https://canijailbreak.com)
 
 ## JailBreaking —
 
 Jailbreaking is generally are of two types. Jailbreaking totally depends upon the iOS version your device is using. 
 
-# 1. Tethered
+## 1. Tethered
 
 Tethered jailbreaks require the iOS device to be connected to a computer while it is booting. If it is booted without a computer connected, it will not boot up. These kinds of jailbreaks are usually based on exploits of the Boot ROM, LLB or iBoot. While these jailbreaks are hard for Apple to patch, they are quite inconvenient to its users.
 
-# 2. Untethered
+## 2. Untethered
 
 Untethered jailbreaks do not need the iOS device to be connected to a computer during bootup, making them very user-friendly. Usually, the device is jailbroken once by connecting it to a computer that then exploits a vulnerability to patch the kernel.
 
-Ref: https://promon.co/security-news/ios-jailbreak/
+Ref: [https://promon.co/security-news/ios-jailbreak/](https://promon.co/security-news/ios-jailbreak/)
 
-# Jailbreaking iPhone 7 with iOS 12.4
+## Jailbreaking iPhone 7 with iOS 12.4
 
 Checking your iOS version
 
@@ -57,7 +57,8 @@ The testing environment used for jailbreaking
 
 if your devices are compatible with Jailbreak then you should have developer's account.
 
-You may enroll for a developer’s account via https://developer.apple.com
+You may enroll for a developer’s account via [https://developer.apple.com](https://developer.apple.com
+)
 
 ### Installing Cydia Impactor
 
@@ -69,7 +70,7 @@ Downloading & Installing Cydia Impactor. (Developers Account Required)
 
 Note: Cydia requires your Apple ID and password so using a newly created Apple ID is highly recommended.
 
-Download IPA from here https://github.com/pwn20wndstuff/Undecimus but please make sure you are using the latest release. As of now, v3.5.5 is the latest version.
+Download IPA from here [https://github.com/pwn20wndstuff/Undecimus](https://github.com/pwn20wndstuff/Undecimus) but please make sure you are using the latest release. As of now, v3.5.5 is the latest version.
 
 Drag the IPA file and drop it into the impactor, then click on start.his will prompt you for the Apple ID username and password.
 
@@ -93,7 +94,9 @@ Open unc0ver app and click on jailbreak
 
 Verify the Unc0ver App
 
-```Settings → General → Profiles & Device Management → email@company.com```
+```
+Settings → General → Profiles & Device Management → email@company.com
+```
 
  <img alt="Jekyll Atlantic Logo" src="/assets/images/blog_images/1*3SwNAwsmn57nCFMwsQW1tg.png"/>
  
@@ -112,10 +115,8 @@ Once your device is jailbroken, you will get Cydia as you can see below.
   
 Congratulations! Your devices in now jailbroken using Unc0ver.
 
-##### Burp Suite Free/Pro — Downloading and configuring
+### Burp Suite Free/Pro — Downloading and configuring
 
- <img alt="Jekyll Atlantic Logo" src="/assets/images/blog_images/1*OS_hF13ON7KHP6hrxa4VoQ.png"/>  
- 
 
 ```
 Setting Proxy lister — Proxy → Options → Proxy Listener → Add
@@ -124,6 +125,10 @@ Bind to address : All interfaces (192.168.X.X)Click “Ok”
 
 - Note: Ip ranges may vary in your device
   ```
+
+ <img alt="Jekyll Atlantic Logo" src="/assets/images/blog_images/1*OS_hF13ON7KHP6hrxa4VoQ.png"/>  
+ 
+
   
   <img alt="Jekyll Atlantic Logo" src="/assets/images/blog_images/1*nn4QOqDI060ZObRQ6vX05A.png"/> 
 
@@ -135,7 +140,9 @@ Port: 8082
 <img alt="Jekyll Atlantic Logo" src="/assets/images/blog_images/1*QYB8z0rBzBM2Zw-NNj5yDA.png"/>  
 
 
-Now select Configure ```Proxy → Manual```
+Now select Configure `Proxy → Manual`
+
+
 
 <img alt="Jekyll Atlantic Logo" src="/assets/images/blog_images/1*fWN48DAr5DzoTTzA8LTPrQ.png"/>
 
@@ -181,7 +188,7 @@ SSH is the secure shell used to connect to different machines.
 
 1. Finding the IP address of the device.
 
-Settings → Connected Network → Click on [i]
+### Settings → Connected Network → Click on [i]
 
 The IP address of the device — 192.168.2.41
 
@@ -208,13 +215,13 @@ You can use Cyberduck on the other hand.
 
 We will use Blackbox tool to disable SSL certificate validation — including certificate pinning — within iOS and OS X Apps. The second iteration of
 
-https://github.com/iSECPartners/ios-ssl-kill-switch
+[https://github.com/iSECPartners/ios-ssl-kill-switch](https://github.com/iSECPartners/ios-ssl-kill-switch)
 
 [nabla-c0d3/ssl-kill-switch2](https://github.com/nabla-c0d3/ssl-kill-switch2)
 
 
 The latest version as of now is v0.13. You can download the deb file from:
-<a href="https://github.com/nabla-c0d3/ssl-kill-switch2/releases"> Gitlab Link </a>
+<a href="https://github.com/nabla-c0d3/ssl-kill-switch2/releases"> Github Link </a>
 
 or direct download the version 0.13 from:
 
@@ -272,6 +279,6 @@ Goto Settings → Look for “SSL kill switch 2”
  
  <img alt="Jekyll Atlantic Logo" src="/assets/images/blog_images/1*79lWM_ELXY--G686f3xApA.png"/>
  
- If you have any query or question just DM on Twitter, I will be happy to assist.
+ If you have any query or question just DM on Twitter [https://twitter.com/vulnh0lic/](https://twitter.com/vulnh0lic/), I will be happy to assist.
  
  Until next time!
