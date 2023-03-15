@@ -152,8 +152,7 @@ Open the MTerminal
 
 Enter Command SU
 
-  <img class="mr-2" height="36px" width="36px"
-      alt="Jekyll Atlantic Logo" src="/assets/images/blog_images/1*2VjZw5sNqEvpw2qWuGJzNQ.png" />
+  <img alt="Jekyll Atlantic Logo" src="/assets/images/blog_images/1*2VjZw5sNqEvpw2qWuGJzNQ.png" />
     
 
 ### Syntax Highlighting
