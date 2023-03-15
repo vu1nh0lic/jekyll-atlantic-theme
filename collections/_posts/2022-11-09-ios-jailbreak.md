@@ -133,11 +133,8 @@ The latest version as of now is v0.13. You can download the deb file from:https:
 
 or direct download the version 0.13 from:
 
-<embed type="text/html" src="[snippet.html](https://github.com/nabla-c0d3/ssl-kill-switch2/releases/download/0.13/com.nablac0d3.sslkillswitch2_0.13.deb)"  width="500" height="200"> 
+<embed type="text/html" src="https://github.com/nabla-c0d3/ssl-kill-switch2/releases/download/0.13/com.nablac0d3.sslkillswitch2_0.13.deb"  width="500" height="200"> 
 
-kk
-
-[snippet.html](https://github.com/nabla-c0d3/ssl-kill-switch2/releases/download/0.13/com.nablac0d3.sslkillswitch2_0.13.deb)
 
 ## Installation
 The following dependencies should be installed using Cydia:
