@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "[iOS Application Security] Jailbreak 12.4 and SSL pinning bypass <br> <br>  How to set up your iOS Testing Lab"
-date: 2018-12-29T10:26:40+10:00
 authors: ["Yogendra Jaiswal"]
 categories:
   ["ios Hacking", "iOS Pentest", "Jailbreak", "Mobile Application Testing"]
@@ -281,3 +280,6 @@ Goto Settings → Look for “SSL kill switch 2”
  If you have any query or question just DM on Twitter [https://twitter.com/vulnh0lic/](https://twitter.com/vulnh0lic/), I will be happy to assist.
  
  Until next time!
+ 
+ 
+ date: 2019-08-24T10:26:40+10:00
