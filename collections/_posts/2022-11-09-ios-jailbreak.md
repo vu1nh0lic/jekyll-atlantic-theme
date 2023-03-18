@@ -21,10 +21,10 @@ This blog post is only meant for educational purposes and security research. Ple
 
 Unc0ver v3.5.0 can jailbreak iOS 12.4 on A7-A11 devices, but A12(X) devices are still excluded at this time. Pwn20wnd also adds that while the jailbreak works on iOS 12.4, the success rate is lower than it was on previous versions of iOS. 
 
-<https://www.idownloadblog.com/2019/08/18/unc0ver-jailbreak-ios-12-4/> unc0ver Jailbreak iOS 12.4 Link
+<https://www.idownloadblog.com/2019/08/18/unc0ver-jailbreak-ios-12-4/>
 
 
-unc0ver jailbreak for iOS 11.0–12.4. You can check to see if your device can be jailbroken using the following website: [https://canijailbreak.com](https://canijailbreak.com)
+unc0ver jailbreak for iOS 11.0–12.4. You can check to see if your device can be jailbroken using the following website: <https://canijailbreak.com>
 
 ## JailBreaking —
 
@@ -38,7 +38,7 @@ Tethered jailbreaks require the iOS device to be connected to a computer while i
 
 Untethered jailbreaks do not need the iOS device to be connected to a computer during bootup, making them very user-friendly. Usually, the device is jailbroken once by connecting it to a computer that then exploits a vulnerability to patch the kernel.
 
-Ref: [https://promon.co/security-news/ios-jailbreak/](https://promon.co/security-news/ios-jailbreak/)
+<https://promon.co/security-news/ios-jailbreak/>
 
 ## Jailbreaking iPhone 7 with iOS 12.4
 
@@ -55,8 +55,7 @@ The testing environment used for jailbreaking
 
 if your devices are compatible with Jailbreak then you should have developer's account.
 
-You may enroll for a developer’s account via [https://developer.apple.com](https://developer.apple.com
-)
+You may enroll for a developer’s account via <https://developer.apple.com>
 
 ### Installing Cydia Impactor
 
@@ -68,7 +67,7 @@ Downloading & Installing Cydia Impactor. (Developers Account Required)
 
 Note: Cydia requires your Apple ID and password so using a newly created Apple ID is highly recommended.
 
-Download IPA from here [https://github.com/pwn20wndstuff/Undecimus](https://github.com/pwn20wndstuff/Undecimus) but please make sure you are using the latest release. As of now, v3.5.5 is the latest version.
+Download IPA from here <https://github.com/pwn20wndstuff/Undecimus> but please make sure you are using the latest release. As of now, v3.5.5 is the latest version.
 
 Drag the IPA file and drop it into the impactor, then click on start.his will prompt you for the Apple ID username and password.
 
@@ -213,17 +212,17 @@ You can use Cyberduck on the other hand.
 
 We will use Blackbox tool to disable SSL certificate validation — including certificate pinning — within iOS and OS X Apps. The second iteration of
 
-[https://github.com/iSECPartners/ios-ssl-kill-switch](https://github.com/iSECPartners/ios-ssl-kill-switch)
+<https://github.com/iSECPartners/ios-ssl-kill-switch>
 
-[nabla-c0d3/ssl-kill-switch2](https://github.com/nabla-c0d3/ssl-kill-switch2)
+<https://github.com/nabla-c0d3/ssl-kill-switch2>
 
 
 The latest version as of now is v0.13. You can download the deb file from:
-<a href="https://github.com/nabla-c0d3/ssl-kill-switch2/releases"> Github Link </a>
+<https://github.com/nabla-c0d3/ssl-kill-switch2/releases>
 
 or direct download the version 0.13 from:
 
-<a href="https://github.com/nabla-c0d3/ssl-kill-switch2/releases/download/0.13/com.nablac0d3.sslkillswitch2_0.13.deb">Click here to download ssl kill Switch2</a>
+<https://github.com/nabla-c0d3/ssl-kill-switch2/releases/download/0.13/com.nablac0d3.sslkillswitch2_0.13.deb> Click here to download ssl kill Switch2
  
 
 
@@ -277,7 +276,7 @@ Goto Settings → Look for “SSL kill switch 2”
  
  <img alt="Jekyll Atlantic Logo" src="/assets/images/blog_images/1*79lWM_ELXY--G686f3xApA.png"/>
  
- If you have any query or question just DM on Twitter [https://twitter.com/vulnh0lic/](https://twitter.com/vulnh0lic/), I will be happy to assist.
+ If you have any query or question just DM on Twitter <https://twitter.com/vulnh0lic>, I will be happy to assist.
  
  Until next time!
  
