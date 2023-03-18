@@ -21,7 +21,7 @@ This blog post is only meant for educational purposes and security research. Ple
 
 Unc0ver v3.5.0 can jailbreak iOS 12.4 on A7-A11 devices, but A12(X) devices are still excluded at this time. Pwn20wnd also adds that while the jailbreak works on iOS 12.4, the success rate is lower than it was on previous versions of iOS. 
 
-<a href="https://www.idownloadblog.com/2019/08/18/unc0ver-jailbreak-ios-12-4/"> unc0ver Jailbreak iOS 12.4 Link </a>
+<https://www.idownloadblog.com/2019/08/18/unc0ver-jailbreak-ios-12-4/> unc0ver Jailbreak iOS 12.4 Link
 
 
 unc0ver jailbreak for iOS 11.0–12.4. You can check to see if your device can be jailbroken using the following website: [https://canijailbreak.com](https://canijailbreak.com)
